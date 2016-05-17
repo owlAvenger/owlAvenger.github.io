@@ -1,0 +1,245 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Arvo', serif;
+	font-size: 16px;
+}
+
+
+
+.unic {
+	background: url("https://source.unsplash.com/CvVgHAGfWes/1600x900") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+
+/*    Header    */
+.nav {
+	float: right;
+	width: 454px;
+	background-color: transparent;
+}
+
+
+.nav-pills li a {
+	color: #004879;
+	border: 1px solid #004879;
+	text-align: center;
+	width: 150px;
+	top: 20px;
+}
+
+
+.nav-pills li.active a, 
+.nav-pills li a:hoover, 
+.section .btn:hoover {
+	background-color: #004879;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+	color: #fff;
+}
+
+
+/*   Jumbotron   */
+
+.jumbotron {
+	position: relative;
+	top: 50px;
+	text-shadow: 0 2px 3px rgba(0,0,0,.4);
+	background-color: transparent;
+	text-align: center;
+}
+
+
+.jumbotron h2 {
+	color: #004879;
+	font-size: 30px;
+	text-shadow: 0 2px 3px rgba(0,0,0,.6);
+	padding-bottom: 130px;
+	padding-left: 700px;
+	text-align: center;
+}
+
+
+.jumbotron p {
+	padding: 100px 0 0 0;
+	font-size: 30px;
+	color: #fff;
+}
+
+
+.information {
+	position: relative;
+	top: 30px;
+	text-align: center;
+	padding: 0 0 100px 0;
+	font-size: 20px;
+}
+
+
+.information span {
+	font-size: 20px;
+}
+
+
+.btn-default {
+	color: #fff;
+	background: rgba(0, 72, 121, 1);
+	border: none;
+}
+
+
+
+/*   Banner   */
+
+
+.banner {
+	background-color: rgba(255, 255, 255, .8);
+	height: 200px;
+	color: #004879;
+	border: 2px solid ;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+/*   feature   */
+
+.feature {
+	text-align: center;
+	color: #004879;
+	padding-bottom: 10px;
+}
+
+
+.feature h1 {
+	text-align: center;
+	color: #004879;
+	text-shadow: 0 2px 3px rgba(0,0,0,.6);
+}
+
+.feature .col-md-4 {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 40px;
+	padding-left: 120px;
+}
+
+.feature p {
+	font-size: 16px;
+	padding-right: 50px;
+	text-shadow: 0 2px 3px rgba(0,0,0,1);
+}
+
+
+.circle {
+	margin: 10px;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	background-color: #fff;
+	border: 2px solid #004879;
+	text-align: center;
+	line-height: 90px;
+	color: #004879;
+	font-size: 15px;
+}
+
+
+
+
+/*   number   */
+
+.number {
+	background-color: rgba(255, 255, 255, .8);
+	color: #004879;
+	text-align: center;
+	border: 2px solid #004879;
+}
+
+
+.number h1 {
+	font-size: 30px;
+
+}
+
+
+.number h2 {
+	font-size: 45px;
+}
+
+
+.number p {
+	font-size: 15px;
+}
+
+
+
+
+/*   explain   */
+
+.explain h2 {
+	color: #004879;
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 0 2px 3px rgba(255,255,255,.4);
+}
+
+
+
+
+/*   partner   */
+
+.partner{
+	background-color: rgba(255, 255, 255, .8);
+	text-align: center;
+	border: 2px solid #004879;
+}
+
+
+
+.partner .col-md-4 {
+	margin-bottom: 40px;
+}
+
+
+.partner .circle {
+	margin-left: 100px;
+} 
+
+
+.partner h2 {
+	color: #004879;
+
+}
+
+
+
+.partner h3 {
+	color: #004879;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

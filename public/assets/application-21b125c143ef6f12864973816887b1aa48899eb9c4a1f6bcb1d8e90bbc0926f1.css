@@ -1,0 +1,589 @@
+/* line 2, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+
+/* line 9, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.unique {
+  background: url("https://source.unsplash.com/xlbXz7wNd50/1600x900") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* line 15, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/*    Header    */
+/* line 24, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.nav {
+  float: right;
+  width: 370px;
+  background-color: transparent;
+}
+
+/* line 31, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.nav-pills li a {
+  color: #004879;
+  border: 1px solid #004879;
+  text-align: center;
+  width: 120px;
+  top: 20px;
+}
+
+/* line 40, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.nav-pills li.active a,
+.nav-pills li a:hoover,
+.section .btn:hoover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+/*   Jumbotron   */
+/* line 51, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  /*text-shadow: 0 2px 3px rgba(0,0,0,.4);*/
+  background-color: transparent;
+  text-align: center;
+}
+
+/* line 59, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.jumbotron h2 {
+  color: #004879;
+  font-size: 60px;
+  /*text-shadow: 0 2px 3px rgba(0, 0, 0, .4);*/
+  padding-bottom: 130px;
+}
+
+/* line 67, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.jumbotron p {
+  padding: 100px 0 0 0;
+  font-size: 30px;
+  color: #fff;
+}
+
+/* line 74, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.subscribe {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  padding: 0 0 100px 0;
+  font-size: 20px;
+}
+
+/* line 82, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.subscribe span {
+  font-size: 20px;
+}
+
+/* line 87, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.btn-default {
+  color: #fff;
+  background: #004879;
+  border: none;
+}
+
+/*   Banner   */
+/* line 95, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.banner {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 250px;
+  color: #004879;
+  border: 2px solid #004879;
+  font-size: 16px;
+}
+
+/*   Feature   */
+/* line 106, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.feature {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* line 114, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.feature .col-md-3 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+/* line 121, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.feature h1 {
+  text-align: center;
+  color: #004879;
+  padding-bottom: 90px;
+}
+
+/* line 128, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.feature h2 {
+  font-size: 16px;
+}
+
+/* line 134, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.feature p {
+  font-size: 16px;
+  padding-right: 90px;
+}
+
+/* line 141, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.circle {
+  margin: 10px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  border: 2px solid #004879;
+  text-align: center;
+  line-height: 90px;
+  color: #004879;
+  font-size: 15px;
+}
+
+/* line 155, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.footer {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 350px;
+  color: #004879;
+  border: 2px solid #004879;
+  font-size: 16px;
+}
+
+/* line 164, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.footer h1 {
+  text-align: center;
+  color: #004879;
+  padding-bottom: 50px;
+}
+
+/* line 171, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.footer .circle {
+  margin: 10px;
+  margin-left: 90px;
+}
+
+/* line 178, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.question {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  padding: 0 0 100px 0;
+  font-size: 20px;
+}
+
+/* line 188, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/instagrammers.css.scss */
+.question span {
+  font-size: 20px;
+}
+/* line 2, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+
+/* line 11, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.unic {
+  background: url("https://source.unsplash.com/CvVgHAGfWes/1600x900") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* line 16, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/*    Header    */
+/* line 23, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.nav {
+  float: right;
+  width: 454px;
+  background-color: transparent;
+}
+
+/* line 30, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.nav-pills li a {
+  color: #004879;
+  border: 1px solid #004879;
+  text-align: center;
+  width: 150px;
+  top: 20px;
+}
+
+/* line 39, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.nav-pills li.active a,
+.nav-pills li a:hoover,
+.section .btn:hoover {
+  background-color: #004879;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+/*   Jumbotron   */
+/* line 50, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  background-color: transparent;
+  text-align: center;
+}
+
+/* line 59, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.jumbotron h2 {
+  color: #004879;
+  font-size: 30px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.6);
+  padding-bottom: 130px;
+  padding-left: 700px;
+  text-align: center;
+}
+
+/* line 69, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.jumbotron p {
+  padding: 100px 0 0 0;
+  font-size: 30px;
+  color: #fff;
+}
+
+/* line 76, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.information {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  padding: 0 0 100px 0;
+  font-size: 20px;
+}
+
+/* line 85, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.information span {
+  font-size: 20px;
+}
+
+/* line 90, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.btn-default {
+  color: #fff;
+  background: #004879;
+  border: none;
+}
+
+/*   Banner   */
+/* line 101, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.banner {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 200px;
+  color: #004879;
+  border: 2px solid;
+  font-size: 40px;
+  text-align: center;
+}
+
+/*   feature   */
+/* line 113, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.feature {
+  text-align: center;
+  color: #004879;
+  padding-bottom: 10px;
+}
+
+/* line 120, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.feature h1 {
+  text-align: center;
+  color: #004879;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* line 126, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.feature .col-md-4 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+  padding-left: 120px;
+}
+
+/* line 133, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.feature p {
+  font-size: 16px;
+  padding-right: 50px;
+  text-shadow: 0 2px 3px black;
+}
+
+/* line 140, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.circle {
+  margin: 10px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  border: 2px solid #004879;
+  text-align: center;
+  line-height: 90px;
+  color: #004879;
+  font-size: 15px;
+}
+
+/*   number   */
+/* line 158, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.number {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #004879;
+  text-align: center;
+  border: 2px solid #004879;
+}
+
+/* line 166, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.number h1 {
+  font-size: 30px;
+}
+
+/* line 172, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.number h2 {
+  font-size: 45px;
+}
+
+/* line 177, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.number p {
+  font-size: 15px;
+}
+
+/*   explain   */
+/* line 186, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.explain h2 {
+  color: #004879;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 0 2px 3px rgba(255, 255, 255, 0.4);
+}
+
+/*   partner   */
+/* line 198, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.partner {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  border: 2px solid #004879;
+}
+
+/* line 206, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.partner .col-md-4 {
+  margin-bottom: 40px;
+}
+
+/* line 211, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.partner .circle {
+  margin-left: 100px;
+}
+
+/* line 216, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.partner h2 {
+  color: #004879;
+}
+
+/* line 223, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/marques.scss */
+.partner h3 {
+  color: #004879;
+}
+/* line 2, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+
+/* line 9, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.unique {
+  background: url("https://source.unsplash.com/xlbXz7wNd50/1600x900") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* line 15, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/*    Header    */
+/* line 24, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.nav {
+  float: right;
+  width: 370px;
+  background-color: transparent;
+}
+
+/* line 31, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.nav-pills li a {
+  color: #004879;
+  border: 1px solid #004879;
+  text-align: center;
+  width: 120px;
+  top: 20px;
+}
+
+/* line 40, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.nav-pills li.active a,
+.nav-pills li a:hoover,
+.section .btn:hoover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+/*   Jumbotron   */
+/* line 51, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  /*text-shadow: 0 2px 3px rgba(0,0,0,.4);*/
+  background-color: transparent;
+  text-align: center;
+}
+
+/* line 59, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.jumbotron h2 {
+  color: #004879;
+  font-size: 60px;
+  /*text-shadow: 0 2px 3px rgba(0, 0, 0, .4);*/
+  padding-bottom: 130px;
+}
+
+/* line 67, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.jumbotron p {
+  padding: 100px 0 0 0;
+  font-size: 30px;
+  color: #fff;
+}
+
+/* line 74, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.subscribe {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  padding: 0 0 100px 0;
+  font-size: 20px;
+}
+
+/* line 82, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.subscribe span {
+  font-size: 20px;
+}
+
+/* line 87, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.btn-default {
+  color: #fff;
+  background: #004879;
+  border: none;
+}
+
+/*   Banner   */
+/* line 95, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.banner {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 250px;
+  color: #004879;
+  border: 2px solid #004879;
+  font-size: 16px;
+}
+
+/*   Feature   */
+/* line 106, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.feature {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* line 114, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.feature .col-md-3 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+/* line 121, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.feature h1 {
+  text-align: center;
+  color: #004879;
+  padding-bottom: 90px;
+}
+
+/* line 128, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.feature h2 {
+  font-size: 16px;
+}
+
+/* line 134, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.feature p {
+  font-size: 16px;
+  padding-right: 90px;
+}
+
+/* line 141, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.circle {
+  margin: 10px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  border: 2px solid #004879;
+  text-align: center;
+  line-height: 90px;
+  color: #004879;
+  font-size: 15px;
+}
+
+/* line 155, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.footer {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 350px;
+  color: #004879;
+  border: 2px solid #004879;
+  font-size: 16px;
+}
+
+/* line 164, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.footer h1 {
+  text-align: center;
+  color: #004879;
+  padding-bottom: 50px;
+}
+
+/* line 171, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.footer .circle {
+  margin: 10px;
+  margin-left: 90px;
+}
+
+/* line 178, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.question {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  padding: 0 0 100px 0;
+  font-size: 20px;
+}
+
+/* line 188, /Users/owl2/Documents/Ruby/workspace/second/app/assets/stylesheets/pages.scss */
+.question span {
+  font-size: 20px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
