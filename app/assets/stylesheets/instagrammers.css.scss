@@ -1,3 +1,17 @@
+@import "bootstrap";
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/BM-nqL-L5PgjKPDNaleWB_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arvo Bold'), local('Arvo-Bold'), url(https://fonts.gstatic.com/s/arvo/v9/_OKjjqM9ed2qvTR07QdjWwLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
 
 html, body {
 	margin: 0;
@@ -6,7 +20,7 @@ html, body {
 	font-size: 16px;
 }
 
-.unique {
+body {
 	background: url("https://source.unsplash.com/xlbXz7wNd50/1600x900") no-repeat center center fixed;
   	background-size: cover;
 }
@@ -60,12 +74,11 @@ html, body {
 	color: #004879;
   	font-size: 60px;
   	/*text-shadow: 0 2px 3px rgba(0, 0, 0, .4);*/
-  	padding-bottom: 130px;
 }
 
 
 .jumbotron p {
-	padding: 100px 0 0 0;
+	padding: 10px 0 0 0;
 	font-size: 30px;
 	color: #fff;
 }
@@ -188,6 +201,13 @@ html, body {
 .question span {
 	font-size: 20px;
 }
+
+
+
+
+
+
+
 
 
 
